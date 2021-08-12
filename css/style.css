@@ -117,7 +117,7 @@ p {
     line-height: 1.6rem;
     color: #ffffff;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
 }
 .button1
 {
@@ -358,6 +358,9 @@ p {
     background: #fff;
     padding: 45px 0 80px 0;
 }
+.sendButton {
+    text-align: center;
+}
 
 /* FOOTER */
 footer
@@ -381,4 +384,5 @@ footer h4
     color: #fff;
     font-weight: normal;
     font-size: 1em;
+    padding: 1em;
 }
