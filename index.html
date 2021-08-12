@@ -31,6 +31,7 @@
                         <li><a href="#experience">Expériences</a></li>
                         <li><a href="#education">Formations</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             
@@ -208,7 +209,7 @@
         
         <section id="portfolio">
             <div class="container">
-                <div class="white-divider"></div>
+                <div class="green-divider"></div>
                 <div class="heading">
                     <h2>Portfolio</h2>
                 </div>
@@ -250,56 +251,61 @@
             </div>
             
         </section>
-     
-        <section id="recommandations">
+
+        <section id="contact">
             <div class="container">
                 <div class="blue-divider"></div>
                 <div class="heading">
-                    <h2>Recommandations</h2>
+                    <h2>Contact</h2>
                 </div>
-                <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                         <li data-target="#myCarousel" data-slide-to="1"></li>
-                         <li data-target="#myCarousel" data-slide-to="2"></li>  
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <h3>"John t'es le meilleur! Merci pour tout..."</h3>
-                            <h4>Larry Page, Google Co-Founder</h4>       
-                        </div>
-                          <div class="item">
-                            <h3>"L'esprit le plus créatif que j'ai vu de toute ma vie..."</h3>
-                            <h4>Jack Dorsey, Twitter Founder and CEO</h4>       
-                        </div>
-                          <div class="item">
-                            <h3>"Merci John de m'avoir appris à coder... Tout ça c'est grâce à toi!"</h3>
-                            <h4>Mark Zuckerberg, Facebook Founder and CEO</h4>       
-                        </div>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <form id="contact-form" method="post" action="" role="form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="firstname">Prénom <span class="blue">*</span></label>
+                                    <input id="firstname" type="text" name="firstname" class="form-control"
+                                        placeholder="Votre prénom">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="name">Nom <span class="blue">*</span></label>
+                                    <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email">Email <span class="blue">*</span></label>
+                                    <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone">Téléphone</label>
+                                    <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="message">Message <span class="blue">*</span></label>
+                                    <textarea id="message" name="message" class="form-control" placeholder="Votre Message"
+                                        rows="4"></textarea>
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="blue"><strong>* Ces informations sont requises.</strong></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <a href="" class="btn btn-default button1" role="button">Envoyer</a>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev" role="button">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next" role="button">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-                
                 </div>
-            
             </div>
-        
-        
         </section>
-        
         <footer class="text-center">
             <a href="#about">
                 <span class="glyphicon glyphicon-chevron-up"></span>
             </a>
             <h4>Vincent Malenfer © 2021 - Developpé sur 💻 avec Bootstrap</h4>
         </footer>
-                
-        
-        
     </body>
-
 </html>
