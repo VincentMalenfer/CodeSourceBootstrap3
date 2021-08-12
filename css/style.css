@@ -7,6 +7,10 @@ h1,h2,h3,h4,h5,h6
 {
     font-weight: bold;
 }
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .img-circle
 {
     max-width: 30%;
@@ -157,7 +161,6 @@ p {
 #skills .progress
 {
     height: 100%;
-    margin: 30px 20px;
     background: #6699CC;
 }
 #skills .progress-bar
@@ -277,6 +280,10 @@ p {
 .timeline-heading h4
 {
      color: #0a3d62;
+}
+.timeline-body p{
+    color: #0a3d62;
+    font-weight: 600;
 }
 
 /* EDUCATION */
