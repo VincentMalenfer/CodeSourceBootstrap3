@@ -369,6 +369,11 @@ p {
 .input-group {
     text-align: center;
 }
+.comments{
+    color: red;
+    text-align: left;
+    font-style: italic;
+}
 
 /* FOOTER */
 footer
