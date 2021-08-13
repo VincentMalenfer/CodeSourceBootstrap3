@@ -140,6 +140,7 @@ p {
 .button1:hover
 {
     color: #0a3d62;
+    background-color: #6699CC;
     background-position: right center;
 }
 .city
@@ -365,7 +366,7 @@ p {
     background: #fff;
     padding: 45px 0 80px 0;
 }
-.sendButton {
+.input-group {
     text-align: center;
 }
 
@@ -379,7 +380,7 @@ footer .glyphicon
 {
     font-size:  25px;
     margin: 20px;
-    color: #0a3d62;
+    color: white;
     height: 30px;
 }
 footer .glyphicon:hover
