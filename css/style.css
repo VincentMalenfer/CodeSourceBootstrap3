@@ -113,8 +113,8 @@ section .heading h3
 .rounded {
     border-radius: 20px;
     background-color: #0a3d62;
-    padding: 20px;
-    margin: 20px;
+    max-width: 700px;
+    margin: auto;
 }
 p {
     font-size: 1em;
