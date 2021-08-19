@@ -374,6 +374,9 @@ p {
     text-align: left;
     font-style: italic;
 }
+.thank-you {
+    color: #333333
+}
 
 /* FOOTER */
 footer
