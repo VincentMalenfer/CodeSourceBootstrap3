@@ -146,7 +146,6 @@ p {
 .city
 {
     max-width: 100%;
-    padding: -80px;
 }
 
 /* SKILLS */
@@ -282,7 +281,7 @@ p {
 {
      color: #0a3d62;
 }
-.timeline-body p{
+.timeline-body li{
     color: #0a3d62;
     font-weight: 600;
 }
